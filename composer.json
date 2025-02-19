@@ -1,0 +1,15 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Controllers\\": "app\\Controllers",
+      "Models\\": "app\\Models",
+      "Entity\\": "app\\Entity",
+      "Util\\": "Util/",
+      "vendor\\": "vendor/",
+      "web\\": "web/"
+    }
+  },
+  "require": {
+    "nikic/fast-route": "^1.3"
+  }
+}
